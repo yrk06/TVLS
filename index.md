@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 # Twitch Valorant Live Score
 
 The TVLS is a twitch extension that uses Valorant's API to show the curent match scoreboard on streams
