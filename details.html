@@ -1,6 +1,27 @@
+  
 <!DOCTYPE HTML>
 <Head>
   <title>View</title>
+  
+  <style>
+  @font-face{
+	font-family: Valorant;
+	
+	src: url("font/Valorant Font.ttf");
+	
+	
+}
+  body {
+	font-family: Valorant;
+	text-align:center;
+	background-color: rgb(200,200,200)
+  
+  }
+  #config {
+	position: relative;
+	margin:0;
+  }
+  </style>
 </Head>
 
 <body>
@@ -9,11 +30,10 @@
   
   <h2>Video Component:</h2>
   <p>This is how the scoreboard will look on stream<p>
-  <iframe></iframe>
-  
-  <h2></h2>
+  <iframe src='video_component.html' height="614" width="1228" ></iframe>
+  <h2>Configuration</h2>
   <p>This is the configuration page</p>
-  <iframe></iframe>>
+  <iframe id='config' src='config.html' frameborder=0 height="310" width="100%"></iframe>
 
 
 </body>
