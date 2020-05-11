@@ -1,0 +1,60 @@
+@font-face{
+	font-family: Valorant;
+	
+	src: url("font/Valorant Font.ttf");
+	
+	
+}
+
+body {
+	background-image: url("img/bg.jpg");
+	height: 100%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Valorant;
+	font-size: 12px;
+}
+
+h3 {
+	margin: 5px;
+	
+	
+	
+}
+
+#mainbox {
+	background-color: rgba(150,150,150,0.5);
+	position: absolute;
+	text-align: center;
+	left: 33%;
+	top: 5%;
+	border: 5px solid rgb(8, 25, 53);
+	border-radius: 5px;
+	width: 600px;
+}
+
+table, th,td {
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border: 5px solid rgb(16, 32, 47);
+	
+	border-collapse:collapse;
+}
+
+#Ally {
+	
+	background-color: rgb(90, 140, 125);
+}
+
+#Def {
+	background-color: rgb(202, 111, 111);
+	
+}
+
+table {
+	margin-left:auto;
+	margin-right:auto;
+}
