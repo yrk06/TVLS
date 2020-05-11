@@ -3,9 +3,12 @@
 The TVLS is a twitch extension that uses Valorant's API to show the curent match scoreboard on streams
 
 
+## For a current preview, check out [this page](https://yrk06.github.io/TVLS/details.html)
+
+
 ## Current Status
 
-As by now, the Valorant API is not publicly released, so no work on it has been done yet
+As by now, the Valorant API is not publicly released, but all wiring from twitch's API is already done
 
 ## Features
 - See KDA of players
